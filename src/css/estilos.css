@@ -8,7 +8,7 @@
 }
 .left-painel-img{
     width: 80px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
    
     float: left;
     height: 80px;
@@ -73,4 +73,10 @@ table td{
     width: 60%;
    float: left;
 }
-
+input#addcomment{
+    transition: 0,3s ease-in-out ;
+}
+input#addcomment:hover{
+    background-color: #fff;
+   
+}
