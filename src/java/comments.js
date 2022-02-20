@@ -1,5 +1,5 @@
 function render(dados) {
-    var html = "<div class='comentbox'><div class='left-painel-img '><img src='https://via.placeholder.com/80x80.png?'class=' rounded-circle 'alt='80x80'  data-holder-rendered='true'></div><div class='right-painel'><span>" + dados.name  + "</span><div class='date'>" + dados.data + "</div><p>" + dados.body + "</p></div><div class='clear clearfix'></div></div>";
+    var html = "<div class='comentbox'><div class='left-painel-img '></div><div class='right-painel'><span>" + dados.name  + "</span><div class='date'>" + dados.data + "</div><p>" + dados.body + "</p></div><div class='clear clearfix'></div></div>";
     $('#text-menssage').append(html)
 
 }

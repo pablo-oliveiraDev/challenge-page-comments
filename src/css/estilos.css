@@ -7,14 +7,19 @@
     background-color: #ADD8E6 ;
 }
 .left-painel-img{
-    width: 12%;
+    width: 80px;
+    border: 1px solid #000;
    
-    
     float: left;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 50px;
+    background-image: url(../imagem/user-image.png);
+    background-size: cover;
 }
 .right-painel{
-    width: 85%;
-  
+    width: 75%;
+    border: 1px solid #000;
     
     float: right;
     margin-left: 1%;
