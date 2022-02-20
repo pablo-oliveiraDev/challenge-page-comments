@@ -1,0 +1,72 @@
+.comentbox{
+    padding: 1%;
+    width: 95%;
+    height: 120px;
+    border: 1px solid #000;
+    margin: 10px auto;
+    background-color: #ADD8E6 ;
+}
+.left-painel-img{
+    width: 12%;
+   
+    
+    float: left;
+}
+.right-painel{
+    width: 85%;
+  
+    
+    float: right;
+    margin-left: 1%;
+    font-size: 15px;
+}
+.form{
+    
+    width: 95%;
+    margin: 10px auto;
+    
+   
+   
+}
+.form input{
+    float: right;
+    margin: 10px;
+}
+.form textarea{
+    float: right;
+    margin: 10px;
+}
+table {
+   
+    background-color:#ADD8E6 ;
+    width: 60%;
+    border-collapse: collapse; /* CSS2 */
+    /* background: #FFFFF0; */
+}
+table tbody tr{
+    padding-left:  5%;
+}
+table tr:nth-child(n ) {
+    
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
+}
+table tr:nth-child(4) {
+    border-bottom: 1.5px solid #000;
+    
+    
+}
+table tr:nth-child(1) {
+border-top: 1.5px solid #000;
+}
+table td{
+    width: 28%;
+    padding-left: 2%;
+    
+}
+#final-row{
+    width: 60%;
+   float: left;
+}
+
