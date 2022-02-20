@@ -39,7 +39,7 @@ $(document).ready(function () {
         };
         
 
-        // localStorage.commentsData=JSON.stringify(comment)
+        
         comment.push(addObj);
         localStorage.setItem('commentsData',JSON.stringify(comment));
         render(addObj);
